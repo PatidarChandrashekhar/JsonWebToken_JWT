@@ -1,0 +1,74 @@
+{
+	"id": "70a2ae06-5f0c-4720-b3cd-153e1d007023",
+	"name": "jsonwebtoken",
+	"description": "JWT postman collection.",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"cd87775e-750a-475c-a1d8-ef10b5cbf401",
+		"f2868d4d-efcb-4d81-bd96-461be568a04b",
+		"7501ce27-8dfa-451b-8339-73a601944c64"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "7501ce27-8dfa-451b-8339-73a601944c64",
+			"name": "http://localhost:5000/api",
+			"url": "http://localhost:5000/api",
+			"description": "Welcome Page.",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "cd87775e-750a-475c-a1d8-ef10b5cbf401",
+			"name": "http://localhost:5000/api/login",
+			"url": "http://localhost:5000/api/login",
+			"description": "Login API.",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "f2868d4d-efcb-4d81-bd96-461be568a04b",
+			"name": "http://localhost:5000/api/posts",
+			"url": "http://localhost:5000/api/posts",
+			"description": "Post request.",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6IkNTIFBhdGlkYXIiLCJlbWFpbCI6IkNTUGF0aWRhckBnbWFpbC5jb20ifSwiaWF0IjoxNjQyNjM3MTU4LCJleHAiOjE2NDI2MzcxODh9.iVgQPOEylusAtsct3lWMmci64FuvyU45iPU-UdUmAdI",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6IkNTIFBhdGlkYXIiLCJlbWFpbCI6IkNTUGF0aWRhckBnbWFpbC5jb20ifSwiaWF0IjoxNjQyNjM3MTU4LCJleHAiOjE2NDI2MzcxODh9.iVgQPOEylusAtsct3lWMmci64FuvyU45iPU-UdUmAdI\n",
+			"pathVariables": {}
+		}
+	]
+}
